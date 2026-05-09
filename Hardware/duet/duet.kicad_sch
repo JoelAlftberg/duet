@@ -2,9 +2,101 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 0eef67e7-bb51-4885-9085-a6db10d7906a)
-	(paper "A4")
+	(uuid "0eef67e7-bb51-4885-9085-a6db10d7906a")
+	(paper "A3")
 	(lib_symbols)
+	(sheet
+		(at 34.29 33.02)
+		(size 97.79 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "16e4e9b1-550a-4027-9c2b-552ad47a8527")
+		(property "Sheetname" "FPGA Top"
+			(at 34.29 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_top.kicad_sch"
+			(at 34.29 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "duet"
+				(path "/0eef67e7-bb51-4885-9085-a6db10d7906a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 34.29)
+		(size 55.88 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "96b68e36-562c-4a58-8d3b-8e43fed7b3b1")
+		(property "Sheetname" "RAM and Flash memory"
+			(at 147.32 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ram_flash.kicad_sch"
+			(at 147.32 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "duet"
+				(path "/0eef67e7-bb51-4885-9085-a6db10d7906a"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

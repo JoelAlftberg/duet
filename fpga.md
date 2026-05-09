@@ -16,7 +16,23 @@ HDMI, I2C, Pmod headers
 1.8 Vcc-io
 HyperRAM
 
-
 ### Bank 8
 3.3 Vcc-io  
 SPI flash, JTAG, ESP32
+
+
+## Pinout 
+
+The nomeclature for the pins are the following:
+
+P means Pin I/O  
+L/R simply indicates what side of the physical IC the pin is located  
+T/B indicates top or bottom of the IC  
+
+The left side has banks 2 and 3
+The right side has banks 6 and 7
+The top side has banks 0 and 1
+The bottom has bank 8
+
+
+sysI/O is the name of the buffers used to interface with the ECP5  
