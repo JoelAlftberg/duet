@@ -21,7 +21,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "16e4e9b1-550a-4027-9c2b-552ad47a8527")
-		(property "Sheetname" "FPGA Top"
+		(property "Sheetname" "FPGA"
 			(at 34.29 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98,6 +98,52 @@
 		)
 	)
 	(sheet
+		(at 205.74 40.64)
+		(size 69.85 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "27594cd6-a316-42a2-8e8a-a088ab134d3c")
+		(property "Sheetname" "Power Supply"
+			(at 205.74 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 205.74 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "duet"
+				(path "/0eef67e7-bb51-4885-9085-a6db10d7906a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 124.46 29.21)
 		(size 38.1 27.94)
 		(exclude_from_sim no)
@@ -144,7 +190,53 @@
 		)
 	)
 	(sheet
-		(at 124.46 90.17)
+		(at 124.46 110.49)
+		(size 39.37 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "aa2b424a-dcb8-427e-bf57-f6d096da54b3")
+		(property "Sheetname" "USB-C"
+			(at 124.46 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_c.kicad_sch"
+			(at 124.46 142.8246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "duet"
+				(path "/0eef67e7-bb51-4885-9085-a6db10d7906a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 67.31)
 		(size 39.37 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -159,8 +251,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "f9101128-8913-4ab9-8a36-4da76598acfa")
-		(property "Sheetname" "HDMI transmitter"
-			(at 124.46 89.4584 0)
+		(property "Sheetname" "HDMI"
+			(at 124.46 66.5984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +263,7 @@
 			)
 		)
 		(property "Sheetfile" "hdmi_transmitter.kicad_sch"
-			(at 124.46 121.2346 0)
+			(at 124.46 98.3746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

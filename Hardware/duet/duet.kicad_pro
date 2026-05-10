@@ -593,7 +593,57 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "HDMI-INPUT": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "DE",
+        "HSYNC",
+        "VSYNC",
+        "SPDIF",
+        "CSCL",
+        "CSDA",
+        "IDCK",
+        "CI2CA"
+      ],
+      "RAM": [
+        "DQ0",
+        "DQ1",
+        "DQ2",
+        "DQ3",
+        "DQ4",
+        "DQ5",
+        "DQ6",
+        "DQ7",
+        "~{RESET}",
+        "CK",
+        "~{CK}",
+        "~{CS}",
+        "RWDS"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -634,7 +684,7 @@
         "uuid": "0eef67e7-bb51-4885-9085-a6db10d7906a"
       }
     ],
-    "used_designators": "X1,R1-3,#PWR10-15,U3-4",
+    "used_designators": "L1,C7-13,U5-6,R2-3,#PWR16-36,CN1",
     "variants": []
   },
   "sheets": [
@@ -644,7 +694,7 @@
     ],
     [
       "16e4e9b1-550a-4027-9c2b-552ad47a8527",
-      "FPGA Top"
+      "FPGA"
     ],
     [
       "96b68e36-562c-4a58-8d3b-8e43fed7b3b1",
@@ -656,7 +706,15 @@
     ],
     [
       "f9101128-8913-4ab9-8a36-4da76598acfa",
-      "HDMI transmitter"
+      "HDMI"
+    ],
+    [
+      "27594cd6-a316-42a2-8e8a-a088ab134d3c",
+      "Power Supply"
+    ],
+    [
+      "aa2b424a-dcb8-427e-bf57-f6d096da54b3",
+      "USB-C"
     ]
   ],
   "text_variables": {},
