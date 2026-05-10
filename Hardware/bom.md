@@ -7,6 +7,10 @@ and price.
 
 LFE5U-45F-6BG256C
 
+## Oscillator
+25 MHz crystal oscillator for the FPGA  
+OT322525MJBA4SL  
+
 ## HDMI controller and interface
 SII9022ACNU  
 version 1.4a  

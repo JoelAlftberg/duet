@@ -634,7 +634,7 @@
         "uuid": "0eef67e7-bb51-4885-9085-a6db10d7906a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "X1,R1-3,#PWR10-15,U3-4",
     "variants": []
   },
   "sheets": [
@@ -649,6 +649,14 @@
     [
       "96b68e36-562c-4a58-8d3b-8e43fed7b3b1",
       "RAM and Flash memory"
+    ],
+    [
+      "1fd1a513-3fb0-491b-afdd-f279a689f14a",
+      "ESP32"
+    ],
+    [
+      "f9101128-8913-4ab9-8a36-4da76598acfa",
+      "HDMI transmitter"
     ]
   ],
   "text_variables": {},
