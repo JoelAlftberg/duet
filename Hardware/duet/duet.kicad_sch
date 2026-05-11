@@ -190,52 +190,6 @@
 		)
 	)
 	(sheet
-		(at 124.46 110.49)
-		(size 39.37 31.75)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "aa2b424a-dcb8-427e-bf57-f6d096da54b3")
-		(property "Sheetname" "USB-C"
-			(at 124.46 109.7784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usb_c.kicad_sch"
-			(at 124.46 142.8246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "duet"
-				(path "/0eef67e7-bb51-4885-9085-a6db10d7906a"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 124.46 67.31)
 		(size 39.37 30.48)
 		(exclude_from_sim no)

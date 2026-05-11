@@ -628,6 +628,20 @@
         "IDCK",
         "CI2CA"
       ],
+      "HDMI-OUTPUT": [
+        "DSCL",
+        "DSDA",
+        "TX0+",
+        "TX0-",
+        "TX1+",
+        "TX1-",
+        "TX2+",
+        "TX2-",
+        "TXC+",
+        "TXC-",
+        "HPD",
+        "CEC_A"
+      ],
       "RAM": [
         "DQ0",
         "DQ1",
@@ -684,7 +698,7 @@
         "uuid": "0eef67e7-bb51-4885-9085-a6db10d7906a"
       }
     ],
-    "used_designators": "L1,C7-13,U5-6,R2-3,#PWR16-36,CN1",
+    "used_designators": "R15-20,#PWR74-81",
     "variants": []
   },
   "sheets": [
@@ -711,10 +725,6 @@
     [
       "27594cd6-a316-42a2-8e8a-a088ab134d3c",
       "Power Supply"
-    ],
-    [
-      "aa2b424a-dcb8-427e-bf57-f6d096da54b3",
-      "USB-C"
     ]
   ],
   "text_variables": {},

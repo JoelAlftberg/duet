@@ -77,9 +77,15 @@ supply to the core voltage of the ICs.
 Most are chosen from the same series on JLCPCB from the manufacturer UNI-ROYAL
 
 - 0402WGF1002TCE - 10k 0402 package resistors, 62.5 mW   
+- 0402WGF4301TCE- 4.3k 0402 package resistors, 62.5 mW  
 - 0402WGF4701TCE - 4.7k 0402 package reisstors, 62.5 mW  
-- 0402WGF2201TCE - 2.2k 0402 package reisstors, 62.5 mW  
+- 0402WGF2201TCE - 2.2k 0402 package resistors, 62.5 mW  
+- 0402WGF1000TCE - 100ohm 0402 package resistors, 62.5 mW
 
 ## LEDs
 
 Status LEDs for the FPGA and MCU
+
+
+## ESD Protection  
+- RCLAMP0514M 
