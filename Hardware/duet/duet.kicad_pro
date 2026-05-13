@@ -626,7 +626,14 @@
         "CSCL",
         "CSDA",
         "IDCK",
-        "CI2CA"
+        "CI2CA",
+        "SD0",
+        "SD1",
+        "SD2",
+        "SD3",
+        "MCLK",
+        "SCK",
+        "WS"
       ],
       "HDMI-OUTPUT": [
         "DSCL",
@@ -698,7 +705,7 @@
         "uuid": "0eef67e7-bb51-4885-9085-a6db10d7906a"
       }
     ],
-    "used_designators": "R15-20,#PWR74-81",
+    "used_designators": "CN2,C30,#PWR74,#PWR87-94,R15,R26-32,Q1",
     "variants": []
   },
   "sheets": [
@@ -725,6 +732,10 @@
     [
       "27594cd6-a316-42a2-8e8a-a088ab134d3c",
       "Power Supply"
+    ],
+    [
+      "113955ea-7e6a-4db4-801d-b18da8934185",
+      "Mezzanine Connector"
     ]
   ],
   "text_variables": {},

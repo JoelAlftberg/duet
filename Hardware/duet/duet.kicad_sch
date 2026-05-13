@@ -5,8 +5,64 @@
 	(uuid "0eef67e7-bb51-4885-9085-a6db10d7906a")
 	(paper "A3")
 	(lib_symbols)
+	(text "Duet Development Board"
+		(exclude_from_sim no)
+		(at 352.552 261.112 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "68537c4d-acb9-4265-912a-4258ec1afcd2")
+	)
 	(sheet
-		(at 34.29 29.21)
+		(at 132.08 125.73)
+		(size 40.64 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "113955ea-7e6a-4db4-801d-b18da8934185")
+		(property "Sheetname" "Mezzanine Connector"
+			(at 132.08 125.0184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mezzanine.kicad_sch"
+			(at 132.08 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "duet"
+				(path "/0eef67e7-bb51-4885-9085-a6db10d7906a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 48.26)
 		(size 73.66 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +78,7 @@
 		)
 		(uuid "16e4e9b1-550a-4027-9c2b-552ad47a8527")
 		(property "Sheetname" "FPGA"
-			(at 34.29 28.4984 0)
+			(at 41.91 47.5484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +89,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga_top.kicad_sch"
-			(at 34.29 78.0546 0)
+			(at 41.91 97.1046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +108,7 @@
 		)
 	)
 	(sheet
-		(at 34.29 88.9)
+		(at 41.91 107.95)
 		(size 73.66 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +124,7 @@
 		)
 		(uuid "1fd1a513-3fb0-491b-afdd-f279a689f14a")
 		(property "Sheetname" "ESP32"
-			(at 34.29 88.1884 0)
+			(at 41.91 107.2384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +135,7 @@
 			)
 		)
 		(property "Sheetfile" "eps32.kicad_sch"
-			(at 34.29 140.2846 0)
+			(at 41.91 159.3346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,8 +154,8 @@
 		)
 	)
 	(sheet
-		(at 205.74 40.64)
-		(size 69.85 48.26)
+		(at 44.45 172.72)
+		(size 121.92 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +170,7 @@
 		)
 		(uuid "27594cd6-a316-42a2-8e8a-a088ab134d3c")
 		(property "Sheetname" "Power Supply"
-			(at 205.74 39.9284 0)
+			(at 44.45 172.0084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +181,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 205.74 89.4846 0)
+			(at 44.45 201.2446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,7 +200,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 29.21)
+		(at 132.08 48.26)
 		(size 38.1 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +216,7 @@
 		)
 		(uuid "96b68e36-562c-4a58-8d3b-8e43fed7b3b1")
 		(property "Sheetname" "RAM and Flash memory"
-			(at 124.46 28.4984 0)
+			(at 132.08 47.5484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +227,7 @@
 			)
 		)
 		(property "Sheetfile" "ram_flash.kicad_sch"
-			(at 124.46 57.7346 0)
+			(at 132.08 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -190,7 +246,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 67.31)
+		(at 132.08 86.36)
 		(size 39.37 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -206,7 +262,7 @@
 		)
 		(uuid "f9101128-8913-4ab9-8a36-4da76598acfa")
 		(property "Sheetname" "HDMI"
-			(at 124.46 66.5984 0)
+			(at 132.08 85.6484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -217,7 +273,7 @@
 			)
 		)
 		(property "Sheetfile" "hdmi_transmitter.kicad_sch"
-			(at 124.46 98.3746 0)
+			(at 132.08 117.4246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

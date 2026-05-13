@@ -16,6 +16,9 @@ HDMI, I2C, Pmod headers
 1.8 Vcc-io
 HyperRAM
 
+## Bank 6 and 7
+Mezzanine 60p connector    
+
 ### Bank 8
 3.3 Vcc-io  
 SPI flash, JTAG, ESP32
